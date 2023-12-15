@@ -1,0 +1,31 @@
+# # # Back End # # #
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database migration files
+**/migrations/
+
+
+# # # Front End # # #
+
+# Dependencies
+/frontend/node_modules
+
+# Testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
